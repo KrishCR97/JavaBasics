@@ -23,6 +23,19 @@ public class TestDriver {
         //javac javafileName.java -> .class file is generated.
         //java javaFileName -> converts .class file and machine executes it.
         System.out.println("Hello");
+        System.out.println("Hello".length());
+        System.out.println("Hello".indexOf("o"));
+        String r = new String("I love java");
+        String s = new String(" Jumping Jeroos ");
+        String t = new String("Bearcats");
+        String u = new String("northwest");
+        System.out.println(r.toUpperCase());
+        System.out.println(t.toLowerCase());
+        System.out.println(u.length());
+        System.out.println(s.trim());
+        System.out.println("Hello".split(" "));
+        System.out.println(r.substring(4));
+        System.out.println(r.substring(2,6));
     }
     
 }
