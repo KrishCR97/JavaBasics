@@ -1,3 +1,6 @@
+
+import java.util.Random;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -39,6 +42,18 @@ public class ObjectsLabs {
                 + string7.substring(string7.indexOf("among"),string7.indexOf("among")
                 + "among".length()) + " the ");
         System.out.println();
+        int value1 = 27,value2 = 4;
+        Math.pow(value1, value2);
+        double cosValue = Math.cos(value1);
+        System.out.println(1/cosValue);
+        double myNumber = 43.35;
+        Math.sqrt(myNumber);
+        int myNumber1 = 30 , myNumber2 = 60;
+        Random r = new Random();
+        System.out.println(r.nextInt(300));
+        
+        
+        
 
         
         
