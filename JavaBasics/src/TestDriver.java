@@ -36,6 +36,7 @@ public class TestDriver {
         System.out.println("Hello".split(" "));
         System.out.println(r.substring(4));
         System.out.println(r.substring(2,6));
+        System.out.println("Hello Hello".substring(1, 3));
     }
     
 }
