@@ -5,6 +5,8 @@
  */
 package javaw01;
 
+import java.util.Objects;
+
 /**
  *
  * @author s528751
@@ -47,4 +49,20 @@ public class Dog {
     this.age = this.age + 1;
     return "Happy birthday " + this.getName();
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(((Dog)obj).name == this.name){
+            return true;
+        } //To change body of generated methods, choose Tools | Templates.
+    return false;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 53 * hash + Objects.hashCode(this.name);
+        return hash;
+    }
+    
 }

@@ -34,6 +34,8 @@ public class JavaW01 {
         //out -- is a printstream object
         Rectangle rect = new Rectangle(12, 6);
         System.out.println(rect.getHeight());
+         Dog d1 = new Dog("Ppp","a",1);
+         System.out.println(d1.hashCode());
         
     }
     
